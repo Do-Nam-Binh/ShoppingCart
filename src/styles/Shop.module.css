@@ -1,0 +1,24 @@
+.shop {
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.categories > div {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.itemList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  padding: 10px 30px;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  top: 0;
+  left: 0;
+  width: calc(100% - 40px);
+  position: fixed;
+  align-items: center;
+  box-shadow: 0 4px 2px -2px gray;
+  background-color: white;
+}
+
+.container > div {
+  display: flex;
+  gap: 40px;
+}
