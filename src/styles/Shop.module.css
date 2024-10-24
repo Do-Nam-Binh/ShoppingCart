@@ -2,23 +2,47 @@
   padding: 0px 40px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+}
+
+.categories h2 {
+  font-size: 3rem;
 }
 
 .categories > div {
   margin-top: 20px;
   display: flex;
-  gap: 40px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
 .itemList {
+  background-color: #ccc;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
   justify-content: center;
   gap: 30px;
+  padding: 20px 15px;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-top: 50px;
 }
 
 button {
-  padding: 10px 30px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 1.75rem;
+}
+
+button.active {
+  background-color: #ccc;
+}
+
+button:hover {
+  background-color: #ddd;
 }

@@ -10,10 +10,16 @@ img {
 .itemDisplay {
   display: flex;
   flex-direction: column;
-  border: 1px solid gray;
-  padding: 10px 20px;
-  justify-content: space-around;
+  padding: 30px 20px;
+  justify-content: space-between;
   align-items: center;
   height: 400px;
   text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: gray 0.4px 6px 8px;
+}
+
+.title {
+  font-weight: bold;
 }

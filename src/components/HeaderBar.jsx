@@ -7,7 +7,7 @@ export default function HeaderBar() {
       <div className={styles.container}>
         <h1>Buyee</h1>
         <div>
-          <Link to="/">Home</Link>
+          <Link to="home">Home</Link>
           <Link to="shop">Shop</Link>
           <Link to="cart">Cart</Link>
         </div>
