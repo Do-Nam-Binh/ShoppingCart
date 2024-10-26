@@ -1,0 +1,44 @@
+.cartView {
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.cartList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.cartDisplay {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.changeAmount {
+  display: flex;
+  align-items: center;
+}
+
+.changeAmount button:hover {
+  background-color: white;
+}
